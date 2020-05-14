@@ -1,0 +1,7 @@
+print('n+nn+nnn=?')
+n = int(input("Введите любое число: "))
+nn = int('{in1}''{in2}'.format(in1=n, in2=n))
+nnn = int('{in1}''{in2}''{in3}'.format(in1=n, in2=n, in3=n))
+s = int(n+nn+nnn)
+print(n, nn, nnn)
+print('n+nn+nnn=', s)
